@@ -15,7 +15,7 @@ There are <b>two files</b> to see here.
 While "```no time.py```" has no time support, it plays a track composed of every address found in order. The rhythm comes from the time support and thus you should choose "```main.py```".  
 This last file also has <b>settings</b> with comments, you should mess up with them and see what you come up with.  
 
-Finally an executable is given in the releases section with a selection of settings described in the release info.
+Finally an executable is given in the <a href="https://github.com/breeev/scapy-music/releases">releases</a> section with a selection of settings described in the release info.
 
 
 
