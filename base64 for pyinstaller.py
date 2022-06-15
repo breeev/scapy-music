@@ -1,14 +1,12 @@
 from base64 import b64decode,b64encode
-your_code = b64encode(b"""
-from copy import deepcopy
-from scapy.all import sniff
-import numpy as np
 import sounddevice as sd
 import soundfile as sf
+from scapy.all import sniff
+from copy import deepcopy
+import numpy as np
 from time import time
 from tkinter.filedialog import asksaveasfile
-
-##SETTINGS
+your_code = b64encode(b"""
 N=100 # number of packets to catch
 T=0.1 # duration of beeps
 pitch_height_factor=7 # the pitch of beeps will be multiplied by this factor to cover a larger spectrum
@@ -17,7 +15,6 @@ decrease_speed_factor=1 # the real-time catch of packets will be slowed down to 
 fs = 44100 # sample rate used to generate, play and write audio
 play=True # set to True to play the output audio
 write_to_file=True # set to True to write your file with the end of the script
-
 t=np.arange(0,T,1/fs)
 audio=np.arange(0,1,1/fs)
 temp=0
