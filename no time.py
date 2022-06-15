@@ -23,4 +23,4 @@ def beep(x):
 #        print(x['IP'].src)
 packets=sniff(prn=lambda x:beep(x),count=N,iface='Wi-Fi')
 sd.play(audio, fs)
-sd.wait(N*T)
+sd.wait()
