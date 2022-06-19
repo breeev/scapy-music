@@ -27,7 +27,7 @@ pitch_height_offset=100 # the pitch of beeps will be summed with this value to b
 decrease_speed_factor=1 # the real-time catch of packets will be slowed down to hear them well
 fs = 44100 # sample rate used to generate, play and write audio
 play=True # set to True to play the output audio
-write_to_file=True # set to True to write your file with the end of the script
+write_to_file=False # set to True to write your file with the end of the script
 
 t=arange(0,T,1/fs)
 audio=arange(0,1,1/fs)
