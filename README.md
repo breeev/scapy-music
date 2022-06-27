@@ -1,4 +1,4 @@
-# <img src='https://raw.githubusercontent.com/breeev/scapy-music/main/logo.ico?sanitize=true&raw=true'/> scapy-music
+# Scapy Music <img src='https://raw.githubusercontent.com/breeev/scapy-music/main/logo.ico?sanitize=true&raw=true'/>
 > Non-random music is cool!  
 
   While creativity is a big part of music creation, a creation following a set of rules is often more appealing. While creativity may seem random, it's in fact often a very original set of rules that make sense together and that way pleases our senses.  
