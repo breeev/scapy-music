@@ -15,7 +15,7 @@ pip install scapy
 pip install pygame
 pip install numpy
 ```
-You will also need a libcap provider. On Windows there is <a href='https://nmap.org/npcap/'>Nmap</a>, but if you installed Wireshark you probably already have it.
+You will also need a libcap provider. On Windows there is <a href='https://nmap.org/npcap/'>Nmap</a>, but if you installed <a href='https://www.wireshark.org/download.html'>Wireshark</a> you probably already have it.
 
 # Features
 Get ready to hear computers talk to each other!  
