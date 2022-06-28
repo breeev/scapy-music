@@ -37,4 +37,4 @@ def beep(x):
     for n in x['IP'].src.split('.'):play(int(n)*pitch_height_factor+pitch_height_offset)
 print('\x1b[1A\x1b[2K✅ ready.')
 system('COLOR 0A')
-sniff(prn=lambda x:beep(x),filter='ip'+ignore_self*(' and not (ip src '+get_if_addr(conf.iface)+')'))
+sniff(prn=lambda x:beep(x),filter='ip'+ignore_self*(' and not (ip src '+get_if_addr(conf.iface)+')'),store=0)
