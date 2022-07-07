@@ -7,6 +7,8 @@ Why all that gibberish you ask?
 This repo contains <b>a scappy analyzer that plays sounds depending on the network packets in circulation</b>. That means it's supposed to vary depending on the time and place where it's being executed, and will always have a meaning because every communication has one.  
 <b>Now working in real time!</b>  
 
+Please note that this script only works with IPv4 adresses.  
+
 # Dependencies  
 You will need Scapy, Pygame and Numpy ; the Wheel module may prevent errors. You can use Python pip:
 ```
