@@ -23,8 +23,8 @@ You will also need a libcap provider. On Windows there is <a href='https://nmap.
 Get ready to hear computers talk to each other!  
 This script uses <a href="https://scapy.net/">Scappy</a> to capture packets. If they got a source IP address, then <a href="https://numpy.org/">Numpy</a> is used to set for each address a mix of four sine waves whose pitch are from the four address bytes (slightly offset and multiplied for hearability and diversity).  
 
-While "`no time.py`" has no time support, it plays a track composed of every address found in order. The rhythm comes from the time support introduced in "`main.py`". A realtime version has then been created using pygame (see "`realtime.py`").  
-These two last files also have <b>settings</b> with comments, you should mess up with them and see what you come up with.  
+While "`no time.py`" has no time support, it plays a track composed of every address found in order. The rhythm comes from the time support introduced in "`main.py`". A realtime version has then been created using pygame (see "`realtime.py`"). And then a loopback version was created. It's even more simple and can sniff packets coming from your own computer for... Your own computer. Loopback packets are here to make components inside your computer talk to each other. It's the most interesting one and really cool to use with Sonic Pi.  
+These last files also have <b>settings</b> with comments, you should mess up with them and see what you come up with.  
 
 You can find Windows executables in the <a href="https://github.com/breeev/scapy-music/releases">releases</a> section.
 
